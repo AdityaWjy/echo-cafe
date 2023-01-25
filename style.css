@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* Ungu smk : #6e2076 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero {
+    margin-top: 90px;
+    margin-bottom: 6rem;
+}
+
+.text-hero {
+    margin-top: 80px;
+}
+
+.hero-img {
+    width: 500px;
+    height: auto;
+}
+
+.text-paragraf {
+    width: 28rem;
+    text-align: justify;
+}
+
+.text-welcome {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.btn {
+    letter-spacing: 2px;
+}
+
+.alamat {
+    letter-spacing: 1px;
+
+}
+
+.img-article {
+    width: 200px;
+    height: 15rem;
+}
+
+.container-mobile {
+    margin-top: -10px;
+}
+
+.text-hero-mobile {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 440px) {
+ .text-paragraf-article {
+    width: 20rem;
+ }
+ .text-paragraf-mobile {
+    width: 20rem;
+ }
+}
